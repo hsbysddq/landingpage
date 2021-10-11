@@ -1,0 +1,1049 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+ul {
+  margin: 0;
+}
+
+.main-screen {
+  background-image: url(../assets/main-screen-bg.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.main-screen nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  width: 100%;
+}
+.main-screen nav .menubar {
+  display: flex;
+}
+.main-screen nav .menubar .logo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 5%;
+}
+.main-screen nav .menubar .feature-home {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 10%;
+}
+.main-screen nav .menubar .feature {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 3%;
+}
+.main-screen nav .menubar .sign-up {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 36%;
+}
+.main-screen nav .menubar .join {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 3%;
+}
+.main-screen nav .menubar li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.main-screen nav .menubar li a {
+  text-decoration: none;
+  color: white;
+}
+.main-screen .tagline {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-screen .tagline h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 76px;
+  margin-bottom: 50px;
+}
+.main-screen .tagline p {
+  text-align: center;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+.main-screen .tagline button {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 75px;
+  padding-left: 75px;
+  margin-bottom: 70px;
+  margin-left: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  background: linear-gradient(#FFB548, #F3AF34);
+}
+.main-screen .scroll-down {
+  display: flex;
+}
+.main-screen .scroll-down p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 2%;
+  margin-left: 47.9%;
+  margin-bottom: 25px;
+}
+.main-screen .scroll-down img {
+  position: absolute;
+  width: 30px;
+  height: 12px;
+  margin-left: 50%;
+  bottom: 2.5%;
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .main-screen nav .menubar .logo {
+    margin-left: 5%;
+  }
+
+  .main-screen nav .menubar .sign-up {
+    margin-left: 30%;
+  }
+
+  .main-screen nav .menubar .logo {
+    font-size: 30px;
+  }
+
+  .main-screen nav .menubar .feature-home {
+    font-size: 14px;
+  }
+
+  .main-screen nav .menubar .feature {
+    font-size: 14px;
+  }
+
+  .main-screen nav .menubar .sign-up {
+    font-size: 14px;
+  }
+
+  .main-screen nav .menubar .join {
+    font-size: 14px;
+  }
+
+  .main-screen .tagline h1 {
+    font-size: 65px;
+    margin-bottom: 40px;
+  }
+
+  .main-screen .tagline p {
+    font-size: 27px;
+    margin-bottom: 40px;
+  }
+
+  .main-screen .scroll-down img {
+    margin-left: 48.8%;
+  }
+
+  .main-screen .scroll-down p {
+    margin-left: 46.5%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .main-screen nav .menubar .feature-home {
+    margin-left: 7%;
+  }
+
+  .main-screen nav .menubar .sign-up {
+    margin-left: 22%;
+  }
+
+  .main-screen .tagline h1 {
+    font-size: 55px;
+    margin-bottom: 30px;
+  }
+
+  .main-screen .tagline p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .main-screen .tagline button {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-bottom: 70px;
+    margin-left: 10px;
+  }
+
+  .main-screen .scroll-down p {
+    font-size: 14px;
+    margin-left: 46%;
+  }
+
+  .main-screen .scroll-down img {
+    width: 22.5px;
+    height: 12px;
+    margin-left: 48.9%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-screen nav .menubar .feature-home {
+    margin-left: 7%;
+  }
+
+  .main-screen nav .menubar .sign-up {
+    margin-left: 17%;
+  }
+
+  .main-screen nav .menubar .logo {
+    font-size: 24px;
+  }
+
+  .main-screen nav .menubar .feature-home {
+    font-size: 13px;
+  }
+
+  .main-screen nav .menubar .feature {
+    font-size: 13px;
+  }
+
+  .main-screen nav .menubar .sign-up {
+    font-size: 13px;
+  }
+
+  .main-screen nav .menubar .join {
+    font-size: 13px;
+  }
+
+  .main-screen .tagline h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+
+  .main-screen .tagline p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .main-screen .tagline button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-bottom: 70px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  .main-screen .scroll-down p {
+    margin-left: 46%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main-screen nav .menubar .logo {
+    font-size: 20px;
+    margin-left: 0%;
+  }
+
+  .main-screen nav .menubar .feature-home {
+    display: none;
+  }
+
+  .main-screen nav .menubar .feature-home {
+    display: none;
+  }
+
+  .main-screen nav .menubar .feature {
+    display: none;
+  }
+
+  .main-screen nav .menubar .sign-up {
+    font-size: 13px;
+    margin-left: 60%;
+  }
+
+  .main-screen nav .menubar .join {
+    font-size: 13px;
+  }
+
+  .main-screen .tagline h1 {
+    font-size: 35px;
+  }
+
+  .main-screen .tagline button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 70px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+  .main-screen .tagline p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .main-screen .tagline h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .main-screen .scroll-down p {
+    margin-left: 45.5%;
+    margin-bottom: 25px;
+  }
+}
+.pilihan-game {
+  background-image: url(../assets/pilihan-game-bg.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pilihan-game .kiri {
+  width: 35%;
+  margin-bottom: 22%;
+  margin-left: 10%;
+}
+.pilihan-game .kiri p {
+  font-size: 28px;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.pilihan-game .kiri h1 {
+  font-size: 64px;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.pilihan-game .kanan {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10%;
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .pilihan-game .kiri h1 {
+    font-size: 55px;
+  }
+
+  .pilihan-game .kiri p {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .pilihan-game .kiri h1 {
+    font-size: 45px;
+  }
+
+  .pilihan-game .kiri p {
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .pilihan-game .kiri h1 {
+    font-size: 34px;
+  }
+
+  .pilihan-game .kiri p {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 3px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .pilihan-game .kiri h1 {
+    font-size: 26px;
+  }
+
+  .pilihan-game .kiri p {
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 3px;
+  }
+}
+.featur {
+  background-image: url(../assets/features-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  margin-top: -1px;
+}
+
+.judul p {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  left: 55.52%;
+  top: 21%;
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+.judul h1 {
+  position: absolute;
+  left: 55.25%;
+  margin-top: 17%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  color: #FFFFFF;
+}
+
+.list1 {
+  position: absolute;
+  left: 55.52%;
+  top: 41%;
+}
+
+.list1 .judul-pertama {
+  font-size: 24px;
+  color: white;
+}
+
+.list1 .judul-pertama p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #FFB548;
+}
+
+.list-style .paragraf2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin-left: 4%;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.list-style {
+  margin-left: -5.1%;
+  margin-top: -3.6%;
+}
+
+.list-style p {
+  border-left: 2px solid white;
+  padding-left: 23px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  position: relative;
+  left: -15px;
+  top: -10px;
+}
+
+li.circle {
+  list-style-type: circle;
+}
+
+.list-style2 {
+  margin-top: -7.3%;
+  margin-left: -0.2%;
+}
+
+.list1 .judul-kedua {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.list1 .judul-kedua p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #FFB548;
+}
+
+.list-style2 p {
+  padding-bottom: 5px;
+}
+
+.list1 .judul-ketiga {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+.list1 .judul-ketiga p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #FFB548;
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .judul p {
+    font-size: 24px;
+    top: 20%;
+  }
+
+  .judul h1 {
+    position: absolute;
+    margin-top: 18%;
+    font-size: 51px;
+  }
+
+  .list1 {
+    position: absolute;
+    left: 55.52%;
+    top: 37%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .judul h1 {
+    left: 55.25%;
+    margin-top: 24%;
+  }
+
+  .list1 {
+    top: 37%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .judul h1 {
+    margin-top: 21%;
+    left: 39.5%;
+  }
+
+  .judul p {
+    left: 39.5%;
+    margin-top: 14%;
+    top: 0%;
+  }
+
+  .list1 {
+    left: 39.5%;
+  }
+
+  .list1 {
+    top: 28%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .judul p {
+    left: 30%;
+    top: 10%;
+  }
+
+  .judul h1 {
+    left: 30%;
+    margin-top: 25%;
+  }
+
+  .list1 {
+    position: absolute;
+    left: 30%;
+    top: 26%;
+  }
+}
+.game-requirements {
+  background-image: url(../assets/game-requirements-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  margin-top: -1px;
+}
+
+.game-requirements .paragraf-pertama {
+  position: absolute;
+  left: 39.27%;
+  right: 36.26%;
+  top: 15.12%;
+  bottom: 82%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.game-requirements .heading {
+  position: absolute;
+  height: 73.64px;
+  left: 9.02%;
+  right: 47.07%;
+  top: calc(50% - 73.64px/2 - 216.05px);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 56px;
+  color: #FFFFFF;
+}
+
+.game-requirements .heading-pertama {
+  position: absolute;
+  left: 9.67%;
+  right: 72.19%;
+  top: 42.02%;
+  bottom: 55.1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFB548;
+}
+
+.game-requirements .deskripsi-pertama {
+  position: absolute;
+  left: 9.67%;
+  right: 72.47%;
+  top: 45.58%;
+  bottom: 49.74%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.game-requirements .heading-kedua {
+  position: absolute;
+  left: 28.83%;
+  right: 53.03%;
+  top: 42.02%;
+  bottom: 55.1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFB548;
+}
+
+.game-requirements .deskripsi-kedua {
+  position: absolute;
+  left: 28.83%;
+  right: 53.27%;
+  top: 45.57%;
+  bottom: 48.77%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.game-requirements .heading-ketiga {
+  position: absolute;
+  left: 9.07%;
+  right: 72.8%;
+  top: 55.11%;
+  bottom: 42.01%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFB548;
+}
+
+.game-requirements .deskripsi-ketiga {
+  position: absolute;
+  left: 9.07%;
+  right: 82.72%;
+  top: 58.76%;
+  bottom: 38.38%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+.game-requirements .heading-keempat {
+  position: absolute;
+  left: 28.83%;
+  right: 53.03%;
+  top: 55.11%;
+  bottom: 42.01%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFB548;
+}
+
+.game-requirements .deskripsi-keempat {
+  position: absolute;
+  left: 28.83%;
+  right: 57.87%;
+  top: 58.76%;
+  bottom: 36.66%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+.game-requirements .heading-kelima {
+  position: absolute;
+  left: 9.07%;
+  right: 72.8%;
+  top: 69.25%;
+  bottom: 27.86%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFB548;
+}
+
+.game-requirements .deskripsi-kelima {
+  position: absolute;
+  left: 9.07%;
+  right: 55.27%;
+  top: 72.91%;
+  bottom: 21.56%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: justify;
+}
+
+.top-score {
+  background-image: url(../assets/top-score-bg.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -1px;
+}
+
+.tempat {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.kiri {
+  width: 50%;
+}
+.kiri .tagline {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.kiri .tagline p {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.kiri .tagline h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 56px;
+}
+.kiri .tagline button {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 60px;
+  padding-left: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  background: linear-gradient(#FFB548, #F3AF34);
+}
+
+.kanan {
+  width: 50%;
+}
+.kanan .kartu1 {
+  margin-left: 20%;
+}
+.kanan .kartu1 .card {
+  background: rgba(225, 225, 225, 0.08);
+  border-radius: 10px;
+}
+.kanan .kartu1 .card .identitas {
+  display: flex;
+  flex-direction: row;
+}
+.kanan .kartu1 .card .identitas .profile {
+  margin-left: 9%;
+}
+.kanan .kartu1 .card .identitas .profile h5 {
+  font-size: 24px;
+  color: #FFB548;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.kanan .kartu1 .card .identitas .profile h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.kanan .kartu1 .card p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 6%;
+}
+.kanan .kartu1 .card .date {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 0%;
+  opacity: 30%;
+}
+.kanan .kartu2 {
+  margin-top: 7%;
+}
+.kanan .kartu2 .card {
+  background: rgba(225, 225, 225, 0.08);
+  border-radius: 10px;
+}
+.kanan .kartu2 .card .identitas {
+  display: flex;
+  flex-direction: row;
+}
+.kanan .kartu2 .card .identitas .profile {
+  margin-left: 9%;
+}
+.kanan .kartu2 .card .identitas .profile h5 {
+  font-size: 24px;
+  color: #FFB548;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.kanan .kartu2 .card .identitas .profile h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.kanan .kartu2 .card p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 6%;
+}
+.kanan .kartu2 .card .date {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 0%;
+  opacity: 30%;
+}
+.kanan .kartu3 {
+  margin-top: 7%;
+  margin-left: 15%;
+}
+.kanan .kartu3 .card {
+  background: rgba(225, 225, 225, 0.08);
+  border-radius: 10px;
+}
+.kanan .kartu3 .card .identitas {
+  display: flex;
+  flex-direction: row;
+}
+.kanan .kartu3 .card .identitas .profile {
+  margin-left: 9%;
+}
+.kanan .kartu3 .card .identitas .profile h5 {
+  font-size: 24px;
+  color: #FFB548;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.kanan .kartu3 .card .identitas .profile h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.kanan .kartu3 .card p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 6%;
+}
+.kanan .kartu3 .card .date {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 0%;
+  opacity: 30%;
+}
+.kanan .kartu1 .card .twitter {
+  right: 1%;
+  top: 8%;
+  position: absolute;
+  width: 38px;
+  height: 28px;
+}
+.kanan .kartu2 .card .twitter {
+  right: 1%;
+  top: 8%;
+  position: absolute;
+  width: 38px;
+  height: 28px;
+}
+.kanan .kartu3 .card .twitter {
+  right: 1%;
+  top: 8%;
+  position: absolute;
+  width: 38px;
+  height: 28px;
+}
+
+.newsletter {
+  background-image: url(../assets/newsletter-bg.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -1px;
+}
+.newsletter .konten {
+  width: 100%;
+  height: 100%;
+}
+.newsletter .konten .tempat {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+}
+.newsletter .konten .tempat .kiri {
+  width: 50%;
+}
+.newsletter .konten .tempat .kanan {
+  width: 50%;
+  margin-right: 7%;
+}
+.newsletter .konten .tempat .kanan .paragraf-pertama {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.newsletter .konten .tempat .kanan .header-pertama {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 65px;
+  color: #FFFFFF;
+}
+.newsletter .konten .tempat .kanan .deskripsi {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.newsletter .konten .tempat .kanan .form-newsletter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.newsletter .konten .tempat .kanan textarea {
+  width: 50%;
+}
+.newsletter .konten .tempat .kanan button {
+  width: 30%;
+  margin-left: 2%;
+}
+.newsletter .konten .tempat .kanan #tempat-email {
+  background-color: rgba(225, 225, 225, 0.08);
+  border: #141414;
+  border-radius: 6px;
+}
+.newsletter .konten .tempat .kanan ::placeholder {
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.newsletter .konten .footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 23%;
+  margin-top: 1%;
+}
+.newsletter .konten .footer p {
+  text-transform: uppercase;
+  margin-right: 5%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: 0%;
+}
+.newsletter .konten .footer .sosial-media {
+  display: flex;
+  flex-direction: row;
+}
+.newsletter .konten .footer .sosial-media img {
+  margin-right: 20px;
+}
+.newsletter .konten hr {
+  color: white;
+  margin-left: 10%;
+  margin-top: 2.6%;
+}
+.newsletter .konten .copy-right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+.newsletter .konten .copy {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.newsletter .konten .privacy {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  margin-left: 34.2%;
+}
+
+/*# sourceMappingURL=main.CSS.map */

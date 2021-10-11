@@ -1,0 +1,167 @@
+ul,
+p,
+h1,
+img {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+#mainScreen {
+  background-color: #9C835F;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+.header ul li h1 {
+  color: #724C21;
+  font-size: 70px;
+  margin-top: -11px;
+}
+.header ul li img {
+  height: 64px;
+  width: 64px;
+  margin-left: 21px;
+  margin-top: 10px;
+}
+.header ul li p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #F9B23D;
+  margin-left: 26px;
+  margin-top: 5px;
+}
+
+.row {
+  margin-top: 1%;
+}
+.row .col-2 .player ul li {
+  list-style: none;
+  text-align: center;
+}
+.row .col-2 .player ul #tittle p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+.row .col-2 .player ul #player-batu {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.row .col-2 .player ul #player-batu img {
+  width: 112px;
+  height: 80.5px;
+}
+.row .col-2 .player ul #player-kertas {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.row .col-2 .player ul #player-kertas img {
+  width: 100.6px;
+  height: 131.25px;
+}
+.row .col-2 .player ul #player-gunting {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.row .col-2 .player ul #player-gunting img {
+  width: 117.25px;
+  height: 140px;
+}
+.row .col-3 #wrapper {
+  text-align: center;
+  width: 70%;
+  margin-left: 19%;
+}
+.row .col-3 #wrapper .atas {
+  height: 50%;
+}
+.row .col-3 #wrapper .atas #versus {
+  align-items: center;
+}
+.row .col-3 #wrapper .atas #versus h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 126px;
+  font-weight: 700;
+  color: #BD0000;
+  margin-top: 74%;
+}
+.row .col-3 #wrapper .bawah {
+  height: 50%;
+}
+.row .col-3 #wrapper .bawah #reset {
+  margin-top: 45%;
+}
+.row .col-3 #wrapper .bawah #reset :hover {
+  transform: rotate(-25deg);
+}
+.row .col-2 .computer ul li {
+  list-style: none;
+  text-align: center;
+}
+.row .col-2 .computer ul #tittle p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+.row .col-2 .computer ul #computer-batu {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.row .col-2 .computer ul #computer-batu img {
+  width: 112px;
+  height: 80.5px;
+}
+.row .col-2 .computer ul #computer-kertas {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.row .col-2 .computer ul #computer-kertas img {
+  width: 100.6px;
+  height: 131.25px;
+}
+.row .col-2 .computer ul #computer-gunting {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.row .col-2 .computer ul #computer-gunting img {
+  width: 117.25px;
+  height: 140px;
+}
+
+.bg-selected {
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.hasil-permainan {
+  background-color: #4C9654;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 38px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 85%;
+  color: white;
+  transform: rotate(-18deg);
+}
+
+/*# sourceMappingURL=main.CSS.map */
